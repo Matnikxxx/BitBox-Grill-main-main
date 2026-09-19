@@ -1,0 +1,299 @@
+# BiteBox Grill Website
+
+## Student Information
+
+Name: Nicholas Mathebula
+
+Student Number: ST10523037
+
+Assessment: Part 1 - Building the Foundation.
+
+## Project Overview
+
+BiteBox Grill is a fictional fast-food business created for this project.
+
+The website gives customers information about the business, its food,
+prices and contact details.
+
+The website is designed to be simple and easy to use.
+
+## Target Audience
+
+The website is mainly for:
+
+- Students
+- Families
+- Young workers
+- Local customers
+
+## Website Goals and Objectives
+
+The main goals of the website are:
+
+- Give BiteBox Grill an online presence.
+- Show customers the menu and prices.
+- Give information about the business.
+- Allow customers to send enquiries.
+- Make it easy for customers to find contact details.
+- Make the website easy to navigate.
+
+## Key Performance Indicators
+
+The website can be measured by:
+
+- Number of visitors.
+- Number of menu page views.
+- Number of enquiries.
+- Number of contact page visits.
+- Number of returning visitors.
+
+## Website Pages
+
+The website has five main pages:
+
+1. Home - index.html
+2. About Us - about.html
+3. Menu - products.html
+4. Enquiry - enquiry.html
+5. Contact - contact.html
+
+## Key Features
+
+The website includes:
+
+- Navigation menu.
+- Five HTML pages.
+- BiteBox Grill logo.
+- Food images.
+- Menu and prices.
+- About Us information.
+- Enquiry form.
+- Contact information.
+- More than one business location.
+- Basic CSS styling.
+
+## Sitemap
+
+Home
+|
+|-- About Us
+|
+|-- Menu
+|
+|-- Enquiry
+|
+|-- Contact
+
+## File and Folder Structure
+
+FastFood
+|
+|-- index.html
+|-- about.html
+|-- products.html
+|-- enquiry.html
+|-- contact.html
+|-- README.md
+|
+|-- css
+|   |-- style.css
+|
+|-- images
+|   |-- logo.png
+|   |-- burger.jpg
+|   |-- chicken-wrap.jpg
+|   |-- chips.jpg
+|
+|-- js
+    |-- script.js
+
+## Part 1 Details
+
+Part 1 focused on building the basic website.
+
+The following work was completed:
+
+- BiteBox Grill was chosen and approved by the lecturer.
+- The website proposal was created.
+- Website content was researched.
+- A sitemap was created.
+- The project folders were created.
+- Five HTML pages were created.
+- Navigation was added.
+- Images were added.
+- An enquiry form was created.
+- Contact information was added.
+- Basic CSS was added.
+- The website pages were tested.
+
+## Timeline
+
+Stage 1: Choose BiteBox Grill and get approval.
+
+Stage 2: Research the business and collect content.
+
+Stage 3: Create the proposal, sitemap and folders.
+
+Stage 4: Create the five HTML pages.
+
+Stage 5: Add content, images and navigation.
+
+Stage 6: Test the website and fix problems.
+
+Stage 7: Complete the README, GitHub work and submit Part 1.
+
+## Changelog
+
+### Version 1.0
+
+- Created the BiteBox Grill website.
+- Created the Home page.
+- Created the About Us page.
+- Created the Menu page.
+- Created the Enquiry page.
+- Created the Contact page.
+- Added navigation.
+- Added the BiteBox Grill logo.
+- Added burger, chicken wrap and chips images.
+- Added menu information and prices.
+- Added basic CSS.
+- Added JavaScript folder and file.
+- Updated the README.
+- Tested the website pages.
+
+## AI Use
+
+
+AI was used to help with planning, basic HTML and CSS, website content,
+project organisation and fixing problems.
+
+The website was checked and changed to meet the assessment requirements.
+
+## References
+
+Google (2025) Google Business Profile. Available at:
+https://www.google.com/business/
+(Accessed: 8 August 2026).
+
+South African Revenue Service (SARS) (2025) Small business. Available at:
+https://www.sars.gov.za/types-of-tax/small-business/
+(Accessed: 8 August 2026).
+
+Mozilla Developer Network (MDN) (2025) HTML: HyperText Markup Language.
+Available at:
+https://developer.mozilla.org/en-US/docs/Web/HTML
+(Accessed: 8 August 2026).
+
+Mozilla Developer Network (MDN) (2025) CSS: Cascading Style Sheets.
+Available at:
+https://developer.mozilla.org/en-US/docs/Web/CSS
+(Accessed: 11 August 2026).
+
+World Wide Web Consortium (W3C) (2025) Web Content Accessibility
+Guidelines (WCAG) 2.2. Available at:
+https://www.w3.org/TR/WCAG22/
+(Accessed: 12 August 2026).
+
+OpenAI (2026) ChatGPT [AI language model]. Available at:
+https://chatgpt.com/
+(Accessed: 13 August 2026).
+
+
+
+## Part 2 - CSS and Visual Design
+
+### CSS Work Completed
+
+- Added a black and white colour scheme.
+- Styled the header, logo and navigation menu.
+- Added clear fonts, spacing and headings.
+- Styled the homepage hero section.
+- Styled the food menu cards and food images.
+- Added hover effects to buttons and menu cards.
+- Styled the enquiry form and contact sections.
+- Added a styled footer to all pages.
+- Added responsive CSS for smaller screens.
+- Changed the menu layout to one column on smaller screens.
+- Added focus styles to improve keyboard navigation.
+
+### Responsive Design Testing
+
+The website was tested by making the browser window smaller.
+
+The navigation, menu cards, images and page content were checked to make sure they fit correctly on smaller screens.
+
+### Part 2 Screenshots
+
+Screenshots of the completed website pages are included in the screenshots folder:
+![alt text](<Screenshot 2026-09-18 235137.png>)
+![alt text](<Screenshot 2026-09-18 235118-1.png>)
+![alt text](<Screenshot 2026-09-18 235014.png>)
+![alt text](<Screenshot 2026-09-18 235106.png>)
+![alt text](<Screenshot 2026-09-18 235014-1.png>)
+![alt text](<Screenshot 2026-09-19 003317.png>)
+### Accessibility
+
+The website uses clear headings, readable text, navigation links, image alternative text and keyboard focus styles.
+
+## Part 2 Testing
+
+### HTML Validation
+
+The HTML pages were tested using the W3C HTML Checker.
+
+The following pages were checked:
+
+- index.html
+- about.html
+- products.html
+- enquiry.html
+- contact.html
+
+No HTML errors were found during validation. Warnings were reviewed and did not prevent the website from working correctly.
+
+### Browser and Responsive Testing
+
+The website was tested at different browser window sizes. The pages were checked to make sure that:
+
+- Navigation remains usable.
+- Text remains readable.
+- Images remain inside their sections.
+- Menu cards adjust to smaller screens.
+- Forms fit smaller screens.
+- Buttons remain usable.
+- Content does not extend outside the page.
+
+### Accessibility Testing
+
+Keyboard navigation was tested using the Tab key. Links and buttons could be reached using the keyboard.
+
+Images also include alternative text to describe their content.
+
+### Part 2 Changelog
+
+- Added CSS styling to all website pages.
+- Added responsive design for smaller screens.
+- Improved spacing, typography and readability.
+- Added hover and focus effects.
+- Improved the appearance of food images and menu cards.
+- Styled the footer and other page sections.
+.
+## Part 2 Status
+
+Part 2 website styling, responsive design, accessibility checks and testing have been completed.
+
+The website is ready for the next stage of development.
+
+## References
+
+1. MDN Web Docs. HTML images. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images (Accessed: 10 September 2026).
+
+2. MDN Web Docs. HTML: A good basis for accessibility. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML (Accessed: 12 September 2026).
+
+3. W3C Web Accessibility Initiative. Images Tutorial. Available at: https://www.w3.org/WAI/tutorials/images/ (Accessed: 13 September 2026).
+
+4. W3C Web Accessibility Initiative. Using alt attributes on img elements. Available at: https://www.w3.org/WAI/WCAG22/Techniques/html/H37.html (Accessed: 15 September 2026).
+
+5. MDN Web Docs. Text labels and names - Accessibility. Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names (Accessed: 17 September 2026).
+
+6. OpenAI. ChatGPT. Available at: https://chatgpt.com/ (Accessed: 18 September 2026).

@@ -1,0 +1,767 @@
+/* =========================
+   GENERAL SETTINGS
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #111;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    min-height: 90px;
+    position: relative;
+}
+
+/* Small logo in the top-left corner */
+header img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 60px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+/* Shows which page the user is on */
+nav a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* =========================
+   SECTIONS
+   ========================= */
+
+section {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* =========================
+   HOME PAGE HERO
+   ========================= */
+
+.hero {
+    text-align: center;
+    padding: 60px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+button,
+.menu-button,
+.order-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+.menu-button:hover,
+.order-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+button:focus,
+.menu-button:focus,
+.order-button:focus {
+    outline: 3px solid #777;
+    outline-offset: 3px;
+}
+
+/* =========================
+   FOOD IMAGES
+   ========================= */
+
+.food-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food-images img {
+    width: 30%;
+    max-width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #000;
+    transition: transform 0.3s;
+}
+
+.food-images img:hover {
+    transform: scale(1.03);
+}
+
+/* =========================
+   OTHER IMAGES
+   ========================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Keep the header logo small */
+header img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+}
+
+/* =========================
+   MENU PAGE
+   ========================= */
+
+.menu-intro {
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.menu-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+}
+
+.menu-card h3 {
+    margin: 10px 0;
+}
+
+.menu-card p {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+/* =========================
+   MORE MENU ITEMS
+   ========================= */
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-list div {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.menu-list h3 {
+    margin-top: 0;
+}
+
+.menu-list strong {
+    color: #000;
+    font-size: 20px;
+}
+
+/* =========================
+   ABOUT PAGE
+   ========================= */
+
+.about-intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.about-card {
+    text-align: center;
+}
+
+.about-customers {
+    text-align: center;
+}
+
+.about-customers ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* =========================
+   ENQUIRY PAGE
+   ========================= */
+
+.enquiry-intro {
+    text-align: center;
+}
+
+.enquiry-form {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.enquiry-form h2 {
+    text-align: center;
+}
+
+.enquiry-form label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea:focus {
+    outline: 2px solid #000;
+    border-color: #000;
+}
+
+.enquiry-form button {
+    margin-top: 20px;
+}
+
+/* =========================
+   CONTACT PAGE
+   ========================= */
+
+.contact-intro,
+.contact-details {
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.location-card {
+    background-color: #f5f5f5;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.location-card h3 {
+    margin-top: 0;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   TABLETS
+   ========================= */
+
+@media (max-width: 800px) {
+
+    header {
+        min-height: 150px;
+        padding-top: 90px;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        left: 15px;
+    }
+
+    nav {
+        margin-left: 0;
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 7px 9px;
+        font-size: 14px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-list {
+        grid-template-columns: 1fr;
+    }
+
+    .food-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-images img {
+        width: 100%;
+        max-width: 400px;
+        height: 220px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   MOBILE PHONES
+   ========================= */
+
+@media (max-width: 600px) {
+
+    main {
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header img {
+        width: 55px;
+        height: 55px;
+        left: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 6px;
+    }
+
+   .hero {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.menu-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.menu-button:hover {
+    background-color: #ddd;
+}
+
+    .food-images img {
+        height: 200px;
+    }
+
+    .menu-card img {
+        height: 220px;
+    }
+
+    .enquiry-form input,
+    .enquiry-form textarea {
+        font-size: 16px;
+    }
+
+    button,
+    .menu-button,
+    .order-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* =========================
+   ACCESSIBILITY
+   ========================= */
+
+a,
+button,
+input,
+textarea {
+    font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #555;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline-offset: 2px;
+}
+
+/* =========================
+   REDUCED MOTION
+   ========================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+/* =========================
+   MOBILE NAVIGATION
+   ========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        min-height: 280px;
+        padding-top: 80px;
+    }
+
+    header img {
+        width: 55px;
+        height: 55px;
+        top: 12px;
+        left: 15px;
+    }
+
+    nav {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: stretch;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+        border: 1px solid #444;
+    }
+
+    nav a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
+/* =========================
+   MOBILE CONTENT LAYOUT
+   ========================= */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .menu-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .menu-card img {
+        height: 200px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input,
+    textarea,
+    select {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/* =========================
+   BUTTON HOVER EFFECTS
+   ========================= */
+
+.menu-button,
+.order-button,
+button {
+    transition: 0.3s ease;
+}
+
+.menu-button:hover,
+.order-button:hover,
+button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
+
+.menu-button:focus,
+.order-button:focus,
+button:focus {
+    outline: 2px solid #000;
+    outline-offset: 3px;
+}
+/* =========================
+   IMAGE STYLING
+   ========================= */
+
+.menu-card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    max-width: 100%;
+}
+/* ==========================
+   FOOTER
+   ========================== */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
