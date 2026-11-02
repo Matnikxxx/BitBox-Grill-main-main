@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BiteBox Grill - Home</title>
+    <!-- SEO information -->
+    <meta name="description" content="Welcome to BiteBox Grill, offering fresh, tasty and affordable burgers, chicken wraps and meals in Johannesburg and Soweto. Explore our menu today.">
+
+    <meta name="keywords" content="BiteBox Grill, fast food, affordable meals, burgers, chicken wraps, chips, Johannesburg, Soweto">
+
+    <title>BiteBox Grill | Fresh and Affordable Fast Food in Johannesburg</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,8 +23,17 @@
 
         <img src="images/logo.png" alt="BiteBox Grill logo">
 
+        <!-- Mobile menu button -->
+        <button class="menu-toggle" id="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-nav">
+            ☰
+        </button>
+
         <!-- Navigation menu -->
-        <nav>
+        <nav id="main-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="products.html">Menu</a>
@@ -71,7 +86,8 @@
 
                 <article class="menu-card">
 
-                    <img src="images/burger.jpg" alt="BiteBox Grill beef burger">
+                    <img src="images/burger.jpg"
+                        alt="BiteBox Grill beef burger">
 
                     <h3>Beef Burger</h3>
 
@@ -86,7 +102,8 @@
 
                 <article class="menu-card">
 
-                    <img src="images/chicken-wrap.jpg" alt="BiteBox Grill chicken wrap">
+                    <img src="images/chicken-wrap.jpg"
+                        alt="BiteBox Grill chicken wrap">
 
                     <h3>Chicken Wrap</h3>
 
@@ -101,7 +118,8 @@
 
                 <article class="menu-card">
 
-                    <img src="images/chips.jpg" alt="BiteBox Grill chips">
+                    <img src="images/chips.jpg"
+                        alt="BiteBox Grill chips">
 
                     <h3>Chips</h3>
 
@@ -146,6 +164,11 @@
 
     </footer>
 
+
+    <!-- JavaScript file -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
+

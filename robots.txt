@@ -1,0 +1,6 @@
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://matnikxxx.github.io/BitBox-Grill/sitemap.xml

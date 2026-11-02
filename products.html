@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore the BiteBox Grill menu, including burgers, chicken wraps, chips and affordable meals in Johannesburg and Soweto.">
 
     <title>BiteBox Grill - Menu</title>
 
@@ -17,8 +20,17 @@
 
         <img src="images/logo.png" alt="BiteBox Grill logo">
 
+        <!-- Mobile menu button -->
+        <button class="menu-toggle" id="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-nav">
+            ☰
+        </button>
+
         <!-- Navigation menu -->
-        <nav>
+        <nav id="main-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="products.html">Menu</a>
@@ -28,14 +40,13 @@
 
     </header>
 
-
     <!-- Main content -->
     <main>
 
         <!-- Menu introduction -->
         <section class="menu-intro">
 
-            <h2>Our Menu</h2>
+            <h1>Our Menu</h1>
 
             <p>
                 Choose from our tasty and affordable meals.
@@ -43,18 +54,38 @@
 
         </section>
 
+        <!-- Menu search -->
+        <section class="menu-search-section">
+
+            <h2>Find a Meal</h2>
+
+            <label for="product-search">Search for a meal:</label>
+
+            <input
+                type="search"
+                id="product-search"
+                placeholder="Search meals..."
+                aria-label="Search meals">
+
+            <p id="search-results" aria-live="polite">
+                Showing all 6 meals.
+            </p>
+
+        </section>
 
         <!-- Popular meals -->
         <section>
 
             <h2>Popular Meals</h2>
 
-            <div class="menu-grid">
+            <div class="menu-grid" id="popular-meals">
 
                 <!-- Beef burger -->
-                <article class="menu-card">
+                <article class="menu-card search-item">
 
-                    <img src="images/burger.jpg" alt="Beef burger">
+                    <img src="images/burger.jpg"
+                        alt="Beef burger"
+                        class="gallery-image">
 
                     <h3>Beef Burger</h3>
 
@@ -70,11 +101,12 @@
 
                 </article>
 
-
                 <!-- Chicken wrap -->
-                <article class="menu-card">
+                <article class="menu-card search-item">
 
-                    <img src="images/chicken-wrap.jpg" alt="Chicken wrap">
+                    <img src="images/chicken-wrap.jpg"
+                        alt="Chicken wrap"
+                        class="gallery-image">
 
                     <h3>Chicken Wrap</h3>
 
@@ -90,11 +122,12 @@
 
                 </article>
 
-
                 <!-- Chips -->
-                <article class="menu-card">
+                <article class="menu-card search-item">
 
-                    <img src="images/chips.jpg" alt="Chips">
+                    <img src="images/chips.jpg"
+                        alt="Chips"
+                        class="gallery-image">
 
                     <h3>Chips</h3>
 
@@ -114,15 +147,15 @@
 
         </section>
 
-
         <!-- More meals -->
         <section>
 
             <h2>More Meals</h2>
 
-            <div class="menu-list">
+            <div class="menu-list" id="more-meals">
 
-                <div>
+                <div class="search-item">
+
                     <h3>Chicken and Chips</h3>
 
                     <p>
@@ -130,10 +163,11 @@
                     </p>
 
                     <strong>R65</strong>
+
                 </div>
 
+                <div class="search-item">
 
-                <div>
                     <h3>Family Meal</h3>
 
                     <p>
@@ -141,10 +175,11 @@
                     </p>
 
                     <strong>R150</strong>
+
                 </div>
 
+                <div class="search-item">
 
-                <div>
                     <h3>Grilled Meal</h3>
 
                     <p>
@@ -152,6 +187,7 @@
                     </p>
 
                     <strong>R70</strong>
+
                 </div>
 
             </div>
@@ -159,7 +195,6 @@
         </section>
 
     </main>
-
 
     <!-- Footer -->
     <footer>
@@ -170,6 +205,24 @@
 
     </footer>
 
+    <!-- Lightbox container -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+
+        <button id="lightbox-close"
+            class="lightbox-close"
+            type="button"
+            aria-label="Close image">
+            &times;
+        </button>
+
+        <img id="lightbox-image" src="" alt="">
+
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
+
