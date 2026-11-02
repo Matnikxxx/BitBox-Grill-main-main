@@ -297,3 +297,71 @@ The website is ready for the next stage of development.
 5. MDN Web Docs. Text labels and names - Accessibility. Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Text_labels_and_names (Accessed: 17 September 2026).
 
 6. OpenAI. ChatGPT. Available at: https://chatgpt.com/ (Accessed: 18 September 2026).
+
+## Part 3 - JavaScript, Interactivity and SEO
+
+### JavaScript Features
+
+JavaScript was added to make the website more interactive.
+
+The following features were implemented:
+
+- Mobile navigation menu.
+- Product search to help customers find meals.
+- Image lightbox to display larger food images.
+- Enquiry form validation and confirmation message.
+- Contact form validation.
+- Contact form prepares an email using the visitor's default email application.
+
+### SEO Improvements
+
+The following SEO improvements were made:
+
+- Added page titles to all five HTML pages.
+- Added meta descriptions to all five pages.
+- Added descriptive alternative text to images.
+- Used headings to organise website content.
+- Added internal links between website pages.
+- Created a sitemap.xml file.
+- Created a robots.txt file.
+
+### Testing
+
+The website was tested on desktop, tablet and mobile screen sizes.
+
+The following features were tested:
+
+- Navigation menu.
+- Product search.
+- Image lightbox.
+- Enquiry form validation.
+- Enquiry form confirmation message.
+- Contact form validation.
+- Contact email preparation.
+
+### Live Website
+
+The website is hosted using GitHub Pages.
+
+Website URL:
+https://matnikxxx.github.io/BitBox-Grill-main-main/
+
+### Part 3 Changelog
+
+- Added JavaScript functionality.
+- Added mobile navigation.
+- Added product search.
+- Added image lightbox.
+- Improved enquiry form validation.
+- Added contact form email preparation.
+- Added SEO titles and meta descriptions.
+- Created sitemap.xml.
+- Created robots.txt.
+- Tested website functionality.
+- Tested responsive layouts.
+
+### Part 3 Status
+
+Part 3 development and website testing have been completed.
+
+The website is published using GitHub Pages.
